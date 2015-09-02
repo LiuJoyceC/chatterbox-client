@@ -19,20 +19,19 @@
       <div class="select-room">
         <span>Room</span>
         <select id="roomSelect" name="rooms">
-          <option value="lobby">Lobby</option>
+          <option value="lobby">lobby</option>
         </select>
+        <input type="submit" name="submit" value="Create a new room" id="createroom">
       </div>
       <div>
         <form id="send">
-        <fieldset>
-          <textarea id="messsage" name="post-message">Post a message!</textarea>
-          <input type="submit" name="submit" value="Send" class="submit">
-        </fieldset>
+          <fieldset>
+            <textarea id="message" name="post-message">Post a message!</textarea>
+            <input type="submit" name="submit" value="Send" class="submit">
+          </fieldset>
         </form>
       </div>
       <div id="chats"></div>
-
-
     </div>
   </body>
 </html>
